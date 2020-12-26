@@ -193,7 +193,7 @@ object-assign
   flex: 1;
   padding: 30px;
 `,ke=()=>{const[e,t]=Object(r.useState)(c.Views.MENU),n={[c.Views.MENU]:a.a.createElement(N,{handleView:t}),[c.Views.VERBS_LIST]:a.a.createElement(be,null),[c.Views.TENSES]:a.a.createElement(oe,null),[c.Views.ADJECTIVES]:a.a.createElement(C,null),[c.Views.MARKERS_PLACES]:a.a.createElement(z,null),[c.Views.MARKERS_TIME]:a.a.createElement(P,null)}[e];return a.a.createElement(xe,null,a.a.createElement("div",null,e!==c.Views.MENU&&a.a.createElement(u,{name:"backward",onClick:()=>t(c.Views.MENU)})),a.a.createElement(we,null,n))};n.d(t,"a",(function(){return Ce}));const Se=i.a`
-  @import url('@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+  /* @import url('@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap'); */
   
   body {
     margin: 0;
