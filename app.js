@@ -229,7 +229,7 @@ object-assign
   display: flex;
   flex: 1;
   padding: 30px;
-`,Ae=()=>{const[e,t]=Object(r.useState)(c.Views.TENSES),n={[c.Views.MENU]:a.a.createElement(N,{handleView:t}),[c.Views.VERBS_LIST]:a.a.createElement(_e,null),[c.Views.TENSES]:a.a.createElement(ve,null),[c.Views.ADJECTIVES]:a.a.createElement(C,null),[c.Views.MARKERS_PLACES]:a.a.createElement(z,null),[c.Views.MARKERS_TIME]:a.a.createElement(P,null)}[e];return a.a.createElement(Pe,null,a.a.createElement("div",null,e!==c.Views.MENU&&a.a.createElement(u,{name:"backward",onClick:()=>t(c.Views.MENU)})),a.a.createElement(Oe,null,n))};n.d(t,"a",(function(){return Re}));const Ue=i.a`
+`,Ae=()=>{const[e,t]=Object(r.useState)(c.Views.MENU),n={[c.Views.MENU]:a.a.createElement(N,{handleView:t}),[c.Views.VERBS_LIST]:a.a.createElement(_e,null),[c.Views.TENSES]:a.a.createElement(ve,null),[c.Views.ADJECTIVES]:a.a.createElement(C,null),[c.Views.MARKERS_PLACES]:a.a.createElement(z,null),[c.Views.MARKERS_TIME]:a.a.createElement(P,null)}[e];return a.a.createElement(Pe,null,a.a.createElement("div",null,e!==c.Views.MENU&&a.a.createElement(u,{name:"backward",onClick:()=>t(c.Views.MENU)})),a.a.createElement(Oe,null,n))};n.d(t,"a",(function(){return Re}));const Ue=i.a`
   body {
     margin: 0;
     box-sizing: border-box;
